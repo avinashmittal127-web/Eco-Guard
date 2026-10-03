@@ -52,7 +52,18 @@ function App() {
       <aside className="sidebar">
         <a className="brand brand-sidebar" href="#dashboard" aria-label="EcoGuard home">
           <span className="brand-mark">🌎</span>
-          <span><strong>ECOGUARD</strong><small>Cleaner Air. Safer Water.</small></span>
+          <span><strong>ECOGUARD</strong><small style={{
+            display: 'block',
+            fontsize:'11px',
+            fontweight:'500',
+            color:'64748b',
+            letterSpacing:'0.5px',
+            marginTop:'2px',
+            fontStyle:'italic'
+
+            }}>
+              Cleaner Air| Safer Water | Resilient Cities
+              </small></span>
         </a>
         <nav className="side-nav" aria-label="Main navigation">
           {navigation.map(([icon, label]) => (
